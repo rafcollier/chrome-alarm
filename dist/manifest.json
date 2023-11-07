@@ -3,9 +3,15 @@
   "name": "Simple Timer",
   "description": "Simple One-Click Timer",
   "version": "1.0.0",
+  "icons": {
+    "16": "/images/hourGlassIcon.png",
+    "32": "/images/hourGlassIcon.png",
+    "48": "/images/hourGlassIcon.png",
+    "128": "/images/hourGlassIcon.png"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Open"
+    "default_title": "Set timer: 60, 30 or 15 minutes"
   },
     "permissions": [
       "scripting"
