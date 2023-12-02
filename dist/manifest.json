@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Simple Timer",
-  "description": "Simple One-Click Timer",
+  "name": "Subtle Timer",
+  "description": "Subtle One-Click Timer",
   "version": "1.0.0",
   "icons": {
     "16": "/images/hourGlassIcon.png",
@@ -13,7 +13,12 @@
     "default_popup": "popup.html",
     "default_title": "Set timer: 60, 30 or 15 minutes"
   },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
     "permissions": [
-      "scripting"
+      "alarms",
+      "notifications"
     ]
 }
